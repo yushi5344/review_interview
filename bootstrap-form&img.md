@@ -1,16 +1,16 @@
 # 一、表单 #
-	## 1.基本格式 
-	<form action="#">
-		<div class="form-group">
-			<label>电子邮件</label>
-			<input type="email" class="fomr-control" placeholder="请输入您的电子邮件">
-		</div>
-		<div class="form-group">
-			<label>密码</label>
-			<input type="password" class="form-control" placeholder="请输入您的密码>
-		</div>
-	</form>
-	注意：只有正确设置了input框的type属性，才能被赋予正确的样式。支持的输入控件有：text、password、datetime、datetime-local、date,month,tiem,week,number,email,url,search,tel&color.
+## 1.基本格式 
+<form action="#">
+	<div class="form-group">
+		<label>电子邮件</label>
+		<input type="email" class="fomr-control" placeholder="请输入您的电子邮件">
+	</div>
+	<div class="form-group">
+		<label>密码</label>
+		<input type="password" class="form-control" placeholder="请输入您的密码>
+	</div>
+</form>
+注意：只有正确设置了input框的type属性，才能被赋予正确的样式。支持的输入控件有：text、password、datetime、datetime-local、date,month,tiem,week,number,email,url,search,tel&color.
 	##2.内联表单
 		让表单左对齐浮动，表现为inline-block内联块结构
 		<form class="form-inline"></form>  
