@@ -2,16 +2,16 @@
 ## 1.基本格式 
 <pre>
 <code>
-	<form action="#">
-		<div class="form-group">
-			<label>电子邮件</label>
-			<input type="email" class="fomr-control" placeholder="请输入您的电子邮件">
-		</div>
-		<div class="form-group">
-			<label>密码</label>
-			<input type="password" class="form-control" placeholder="请输入您的密码>
-		</div>
-	</form>
+<form action="#">
+	<div class="form-group">
+		<label>电子邮件</label>
+		<input type="email" class="fomr-control" placeholder="请输入您的电子邮件">
+	</div>
+	<div class="form-group">
+		<label>密码</label>
+		<input type="password" class="form-control" placeholder="请输入您的密码>
+	</div>
+</form>
 </code>
 </pre>
 
@@ -20,68 +20,68 @@
 让表单左对齐浮动，表现为inline-block内联块结构
 <pre>
 <code>
-	<form class="form-inline"></form>
+<form class="form-inline"></form>
 </code>
 </pre>  
 当小于768px,会恢复到独占样式
 ## 3.表单合组 ##
 <pre>
 <code>
-	<div class="input-group">
-		<div class="input-group-addon">￥</div>
-		<input type="text" class="form-control">
-		<div class="input-group-addon">.00</div>
-	</div>
+<div class="input-group">
+	<div class="input-group-addon">￥</div>
+	<input type="text" class="form-control">
+	<div class="input-group-addon">.00</div>
+</div>
 </code>
 </pre>
 ## 4.水平排列 ##
 <pre>
 <code>
-	<form action="##" class="form-horizontal">
-		<div class="form-group">
-			<label class="col-sm-2 control-label">电子邮件</label>
-			<div class="col-sm-10">
-				<input type="email" class="form-control" placeholder="请输入您的电子邮件">
-			</div>
+<form action="##" class="form-horizontal">
+	<div class="form-group">
+		<label class="col-sm-2 control-label">电子邮件</label>
+		<div class="col-sm-10">
+			<input type="email" class="form-control" placeholder="请输入您的电子邮件">
 		</div>
-	</form>
+	</div>
+</form>
 </code>
 </pre>
 ## 5.复选框和单选框 ##
 <pre>
 <code>
-	设置复选框 在一行
-	<div class="checkbox">
-		<label><input type="checkbox">体育</label>
-	</div>
-	<div class="checkbox">
-		<label><input type="checkbox">音乐</label>
-	</div>
-	设置禁用的复选框
-	<div class="checkbox">
-		<label><input type="checkbox" disabled>音乐</label>
-	</div>
-    设置内联一行显示的复选框
-	<label class="checkbox-inline"><input type="checkbox">体育</label>
-    <label class="checkbox-inline disabled"><input type="checkbox" disabled></label>
-	设置单选框
-	<div class="radio disabled">
-		<label>
-			<input type="radio" name="sex" disabled>男
-		</label>
-     </div>
+设置复选框 在一行
+<div class="checkbox">
+	<label><input type="checkbox">体育</label>
+</div>
+<div class="checkbox">
+	<label><input type="checkbox">音乐</label>
+</div>
+设置禁用的复选框
+<div class="checkbox">
+	<label><input type="checkbox" disabled>音乐</label>
+</div>
+设置内联一行显示的复选框
+<label class="checkbox-inline"><input type="checkbox">体育</label>
+<label class="checkbox-inline disabled"><input type="checkbox" disabled></label>
+设置单选框
+<div class="radio disabled">
+	<label>
+		<input type="radio" name="sex" disabled>男
+	</label>
+ </div>
 </code>
 </pre>
 ## 6.下拉列表 ##
 <pre>
 <code>
-	<select id="" class="form-control">
-		<option value="1">1</option>
-		<option value="2">2</option>
-		<option value="3">3</option>
-		<option value="4">4</option>
-		<option value="5">5</option>
-   </select>
+<select id="" class="form-control">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+</select>
 </code>
 </pre>
 ## 7.校验状态 ##
