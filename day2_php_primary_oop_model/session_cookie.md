@@ -1,4 +1,4 @@
-#cookie应用
+# cookie应用 #
 创建cookie
  
 	setcookie('name','Lee',time()+60*60);
@@ -16,7 +16,7 @@ cookie限制
 	客户端使用，一个浏览器能创建的cookie最多30个，每个不能超过4KB，每个web站点最多不能超过20个。
 
 
-#session会话
+# session会话 #
 创建session
 
 	session_start();
