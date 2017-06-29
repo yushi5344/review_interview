@@ -26,8 +26,8 @@ number_format()接受1,2,4个参数
     min()最小值
     max()最大值
 
-##4.数组
-###数组排序
+##4.数组##
+###数组排序###
 
     正向排序：sort(),asort(),ksort()
     反向排序: rsort(),arsort(),krsort().
